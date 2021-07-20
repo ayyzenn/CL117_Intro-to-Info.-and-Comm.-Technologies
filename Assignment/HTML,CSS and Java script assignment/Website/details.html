@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <title>Details</title>
+        <link rel="stylesheet" href="style.css">
+        <style>
+            ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            position: relative;
+            bottom: 1px;
+        }
+        
+        li {
+            float: left;
+        }
+        
+        li a {
+            display: block;
+            padding: 8px;
+        }
+        .home {
+            overflow: hidden;
+            background-color: #333;
+        }
+        
+        .home a {
+            float: left;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;
+        }
+        
+        .home a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        
+        .home a.active {
+            background-color: #4CAF50;
+            color: white;
+        }
+        </style>
+    </head>
+
+    <body>
+        <ul>
+            <div class="home">
+    
+    
+                <li><a href="index.html">Home</a></li>
+    
+                <li><a href="menu.html">Menu</a></li>
+    
+                <li><a href="contact.html">Contact</a></li>
+    
+                <li><a href="map.html">Location</a></li>
+    
+                <li><a href="gallery.html">Gallery</a></li>
+            </div>
+    
+        </ul>
+        <div class="login-box">
+            <h1>Confirm Order</h1>
+            <div class="textbox">
+                <input type="text" placeholder="Name" name="" value="">
+            </div>
+
+            <div class="textbox">
+                <input type="text" placeholder="Phone Number" name="" value="">
+            </div>
+            <div class="textbox">
+                <input type="text" placeholder="Address" name="" value="">
+            </div>
+            <input class="btn" type="button" onclick="alert('Your order has been placed.')" name="" value="Confirm" </div>
+    </body>
+
+</html>
