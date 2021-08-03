@@ -1,0 +1,13 @@
+com/example/quotes/A3.java
+ com.example.quotes.A3
+com/example/quotes/A4.java
+ com.example.quotes.A4
+com/example/quotes/MainActivity.java
+ com.example.quotes.MainActivity
+ com.example.quotes.MainActivity$1
+com/example/quotes/A2.java
+ com.example.quotes.A2
+ com.example.quotes.A2$1
+ com.example.quotes.A2$2
+com/example/quotes/BuildConfig.java
+ com.example.quotes.BuildConfig
